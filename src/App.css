@@ -1,0 +1,157 @@
+.page {
+  max-width: 100%;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow: scroll;
+  height: 100%;
+}
+.menu {
+  position: fixed;
+  display: flex;
+  top: 0px;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  width: 100%;
+}
+.menu-shadow {
+  box-shadow: 0 10px 20px -1px rgb(66 57 224 / 0.1);
+  background: white;
+}
+.menu-transparent {
+  background: transparent;
+}
+.menu-logo {
+  margin-left: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  background: url('assets/wave.svg');
+  background-repeat: none;
+  background-size: cover;
+
+  width: 100%
+}
+
+.menu-logo img {
+  height: 40px;
+}
+
+.menu-links {
+  display: flex;
+  align-items: center;
+  margin-right: 2rem;
+}
+
+.menu-links a {
+  border-bottom: 2px solid transparent;
+  cursor: pointer;
+}
+
+button {
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  background: rgb(65,57,224);
+  background: linear-gradient(180deg, rgba(65,57,224,1) 0%, rgba(54,47,175,1) 100%);
+  color: white;
+}
+
+button:hover {
+  background: rgb(54,47,175);
+  background: linear-gradient(180deg, rgba(54,47,175,1) 0%, rgba(43,37,142,1) 100%);
+}
+
+
+.menu-links a:hover {
+  border-bottom: 2px solid #4139e0;
+}
+
+.menu-logo * + *, .menu-links * + * {
+  margin-left: 1rem;
+}
+
+.inner-container {
+  max-width: 88%;
+  margin: 2rem auto;
+  align-items: center;
+  display: flex;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+hr {
+  border: #b1c8ff 1px solid;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.welcome-img, .features {
+  margin-left: 2rem;
+}
+
+.welcome-img img {
+  margin-top: 2rem;
+}
+
+
+h2, h3, h4, h5 {
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 2.4rem;
+  line-height: 1.5;
+}
+
+h4 {
+  font-size: 1.8rem;
+  line-height: 1.2;
+}
+
+.features-img {
+  width: 50%;
+}
+.features-img img {
+  width: 100%;
+}
+
+.features {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  column-gap: 0.5rem;
+  row-gap: 1rem;
+}
+
+.feature-card {
+  padding: 0.35rem;
+  display: flex;
+  align-items: center;
+  max-width: 180px;
+  border-radius: 0.25rem;
+  box-shadow: 0px 10px 20px 10px rgb(66 57 224 / 0.1);
+}
+
+.feature-card h5 {
+  font-weight: medium;
+}
+
+
+.feature-check {
+  padding: 3px;
+  background: #ebeefa;
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  margin-right: 0.25rem;
+}
+
+.contact-button-copy{
+  margin-top: -2px;
+}
