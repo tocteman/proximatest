@@ -1,4 +1,5 @@
 import Check from '../icons/Check.jsx'
+
 const FeatureCard = ({text}) => {
   return (
     <div className="feature-card">

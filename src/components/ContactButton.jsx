@@ -27,10 +27,6 @@ const ContactButton = () => {
       .catch(err => err)
   }
 
-
-
-
-
   return (
     <button onClick={() => contact()}>
       <span className="contact-button-copy">
